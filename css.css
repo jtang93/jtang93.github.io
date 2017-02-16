@@ -1,0 +1,18 @@
+h3{
+	margin-left: 10px;
+	color:white;
+}
+
+.fixed-nav-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 50px;
+	background-color: #000000;
+}
+
+.content {
+	margin-top: 50px
+}
