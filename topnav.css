@@ -17,6 +17,7 @@ h3{
 	width: 90%;
 	max-width: 960px;
 	margin: 0 auto;
+	
 }
 .menu-items a, .menu-items a:visited{
 	color: #ffffff;
@@ -29,21 +30,28 @@ h3{
 
 .menu-items{
 	display: inline-block;
+	vertical-align: top;
+	
 }
 
 .menu-items li{
 	display: inline-block;
 	margin-left: 10px;
 	margin-right: 10px;
+	vertical-align: top;
+	
 }
 .logo{
 	display: inline-block;
 	margin-right: 20px;
 	margin-left: 10px;
-	font-weight:bold;
-	color: #7094db;
-	text-decoration:none;
+	
+
+
 }
+
+
+
 .content {
 	margin-top: 50px
 }
