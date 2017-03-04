@@ -3,35 +3,75 @@
 <head>
 	<link rel="stylesheet" href="assets/base.css">
 	<link rel="stylesheet" href="topnav.css">
-<title>Jonathan G. Tang</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="javascript.js"></script>
+<title>Jonathan G. Tang - Home</title>
 </head>
 
 <body>
 
 
 	<nav class="fixed-nav-bar">
-		<div id="menu" class="menu">
-		<a class="logo" href="index.html">
-			<img src="assets/logo.jpg" 
-				onmouseover="this.src='assets/mouseover logo.jpg'"
-				onmouseout="this.src='assets/logo.jpg'"
-				height="50"
-				width="50"
-			/>				
-		</a>
-		<ul class="menu-items">
-			<li> <a href= "index.html">Home</a> </li>
-			<li> <a href= "assets/Jonathan_Tang_Resume.pdf">Resum&eacute</a> </li>
-			<li> <a href= "contact.html">Contact</a> </li>
-			
-		</ul>
+		<div id="topnav" class="topnav">
+			<a class="logo" href="index.html">
+				<img src="assets/logo.png" 
+					onmouseover="this.src='assets/mouseover logo.jpg'"
+					onmouseout="this.src='assets/logo.png'"
+					height="50px"
+					width="auto"
+				/>				
+			</a>
+			<ul class="topnav-items">
+				<li> <a href= "#home" class="scroll">Home</a> </li>
+				<li> <a href= "#about" class="scroll">About</a> </li>
+				<li> <a href= "#experience" class="scroll">Experience</a> </li>
+				<li> <a href= "#contact" class="scroll">Contact</a> </li>
+				<li> <a href= "assets/Jonathan_Tang_Resume.pdf">R&eacutesum&eacute</a> </li>
+			</ul>
 		</div>
 	</nav>
-	
-	<section class="content"> 
+
+	<section class="landing" id="home"> 
+		<div class="logo-home">
+			<img src="assets/hi res logo.png" 
+				height="380px"
+				width="auto">
+		</div>
 		<div class="description">
-			<h1>Home page of Jonathan G. Tang</h1>
-			<p class="summary"> Coming Soon </p>
+			<h1>Home page of Jonathan G. Tang </h1>
+		</div>
+		<div class="menu">
+			<!--
+			<p class="menu-items"> <a href= "index.html">Home</a></p>
+			<p class="menu-items"> <a href= "assets/Jonathan_Tang_Resume.pdf">R&eacutesum&eacute</a> </p>
+			<p class="menu-items"> <a href= "contact.html">Contact</a> </p>
+			-->
+			
+			
+				<a href= "index.html" class="button">Home</a>
+				<a href= "#about" class="button scroll">About</a>
+				<a href= "#experience" class="button scroll">Experience</a>
+				<a href= "#contact" class="button scroll">Contact</a>
+				<a href= "assets/Jonathan_Tang_Resume.pdf" class="button">R&eacutesum&eacute</a>
+			
+		</div>
+		
+	</section>
+	<section class="about content" id="about">
+		<div class="about">
+			<h1>About Me</h1>
+			<p class="summary"> Data driven, tech loving, staunch individualist </p>
+		</div>
+	</section>
+	<section class="experience content" id="experience">
+		<div class="experience">
+			<h1>Experience</h1>
+			<p class="summary"> Data driven, tech loving, staunch individualist </p>
+		</div>
+	</section>
+	<section class="footer content" id="contact">
+		<div class="footer">
+			<h1>Footer</h1>
 		</div>
 	</section>
 	

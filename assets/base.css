@@ -1,31 +1,105 @@
 body{
 	font: normal 18px/22px "Varela Round", sans-serif;
+	margin-top: 0px;
 	margin-right: 0px;
 	margin-left: 0px;
 	margin-bottom: 0px;
+	height: 100%;
+	width: 100%;
+
+	
 }
 h1, h2{
 	font-family: "Signika", sans-serif;
 	font-weight: 600;
+	margin:0;
+	padding: 0;
 }
 p{
 	margin: 20px ;
 }
 
-
-.content{
-	position: relative;
-	background: url(bg2.jpg) no-repeat center center fixed;
-	background-size: cover;
-	padding: 10px 10px;
+.logo-home{
+	padding-top: 190px;
 }
 
-.description {
-	width: 90%;
+.description{
+	padding-top: 20px;
+}
+
+.description, .logo-home{
+	width: 100%;
 	max-width: 960px;
 	margin: 0 auto;
-	padding-top: 100px;
-	min-height: 750px;
 	text-align:center;
 	color:white;
 }
+
+.button{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin-top: 65px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 15px;
+	background: #1c97d2;
+	width: 100px;
+	padding: 10px;
+	-webkit-transition: background .2s ease-in;
+}
+
+.button:hover{
+	border-radius: 15px;
+	background: #ffc90d;
+	width: 100px;
+	padding: 10px;
+	color: gray;
+	-webkit-transition: color .2s ease-in;
+}
+
+.landing{
+	position: relative;
+	background: url(bg2.jpg) no-repeat center center fixed;
+	background-size: cover;
+	min-height: 100vh;
+	padding: 10px 10px;
+}
+
+.content {
+	min-height: 500px;
+	text-align: center;
+	color:black;
+	background: #d8d8d8;
+	padding: 10px 10px;
+	
+}
+
+/* 
+.about {
+	min-height: 500px;
+	text-align: center;
+	color:blue;
+	background: gray;
+	padding: 10px 10px;
+	
+}
+
+.experience {
+	min-height: 500px;
+	text-align: center;
+	color: green;
+	background: gray;
+	margin-bottom: 0px;
+	padding: 10px 10px;
+}
+
+.footer {
+	min-height: 500px;
+	text-align: center;
+	color: green;
+	background: gray;
+	margin-bottom: 0px;
+	padding: 10px 10px;
+}
+*/
