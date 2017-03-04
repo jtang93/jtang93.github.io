@@ -6,7 +6,7 @@ $(document).ready(function(){
 	
 	$(function(){
 		$(window).scroll(function(){
-			if($(this).scrollTop()>450) {
+			if($(this).scrollTop()>650) {
 				$(".fixed-nav-bar").fadeIn();
 			} 
 			else {

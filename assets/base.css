@@ -12,11 +12,11 @@ body{
 h1, h2{
 	font-family: "Signika", sans-serif;
 	font-weight: 600;
-	margin:0;
+	margin-top: 50px;
 	padding: 0;
 }
 p{
-	margin: 20px ;
+	margin: 10px ;
 }
 
 .flex-column-center{
@@ -76,7 +76,7 @@ p{
 
 .landing{
 	position: relative;
-	background: url(bg2.jpg) no-repeat center center fixed;
+	background: url('bg op40.png') no-repeat center center fixed;
 	background-size: cover;
 	min-height: 100vh;
 	padding: 10px 10px;
@@ -86,9 +86,13 @@ p{
 	min-height: 500px;
 	text-align: center;
 	color:black;
-	background: #d8d8d8;
+	background: #ffffff;
 	padding: 10px 10px;
 	
+}
+
+.experience {
+	background: #e2e2e2;
 }
 
 /* 
@@ -97,16 +101,6 @@ p{
 	text-align: center;
 	color:blue;
 	background: gray;
-	padding: 10px 10px;
-	
-}
-
-.experience {
-	min-height: 500px;
-	text-align: center;
-	color: green;
-	background: gray;
-	margin-bottom: 0px;
 	padding: 10px 10px;
 }
 
@@ -119,3 +113,5 @@ p{
 	padding: 10px 10px;
 }
 */
+
+
