@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300|Raleway');
+
 body{
-	font: normal 18px/22px "Varela Round", sans-serif;
+	font: normal 18px/22px;
+	font-family: 'Raleway', sans-serif;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-left: 0px;
@@ -7,14 +10,16 @@ body{
 	height: 100%;
 	width: 100%;
 
-	
 }
-h1, h2{
-	font-family: "Signika", sans-serif;
-	font-weight: 600;
-	margin-top: 50px;
+
+h1{
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	margin: 0;
 	padding: 0;
+	text-shadow: 3px 3px 5px black;
 }
+
 p{
 	margin: 10px ;
 }
@@ -40,12 +45,14 @@ p{
 }
 */
 .description{
+	margin-top: 50px;
 	padding-top: 20px;
+	font-size: 125%;
 }
 
 .description, .logo-home{
 	width: 100%;
-	max-width: 960px;
+	max-width: 1200px;
 	margin: 0 auto;
 	text-align:center;
 	color:white;
@@ -82,19 +89,89 @@ p{
 	padding: 10px 10px;
 }
 
-.content {
-	min-height: 500px;
+.header{
+	min-height: 50vh;
+	padding: 0;
+	margin: 0;
+}
+
+.about-header{
+	background: url('berlinwall2.jpg');
+	background-size:cover;
+	background-position: 50% 90%;
+}
+
+.experience-header{
+	background: url('views.jpg');
+	background-size:cover;
+	background-position: 50% 35%;
+}
+
+.contact-header{
+	background: url('highway.jpg');
+	background-size:cover;
+	background-position: 50% 35%;
+}
+
+.header-text{
+	position: relative;
+	top: 25vh;
+	transform: translate(10%, 50%);
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	text-align:left;
+	color:white;
+	vertical-align: middle;
+	font-size: 125%
+}
+
+.content-wrapper {
+	min-height: 50vh;
+	background: #ffffff;
+	padding: 0;
+
+}
+
+.content{
+	position: relative;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
 	text-align: center;
 	color:black;
-	background: #ffffff;
-	padding: 10px 10px;
-	
+	top: 25vh;
+	transform: translate(0, -50%);
 }
 
-.experience {
-	background: #e2e2e2;
+.attribute-box{
+	width: 285px;
+	display: inline-block;
+	vertical-align: top;
 }
 
+.contact-content{
+	text-align:center;
+}
+
+.icons{
+	display:inline-block;
+}
+
+.icons img{
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+}
+
+.icons img:hover{
+	opacity:.8;
+	-webkit-transition: opacity .05s ease-in;
+}
+
+a{
+	text-decoration:none;
+}
 /* 
 .about {
 	min-height: 500px;

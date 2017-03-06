@@ -20,7 +20,7 @@ h3{
 
 .topnav {
 	width: 100%;
-	max-width: 960px;
+	max-width: 1200px;
 	margin: 0 auto;
 	height: 50px;
 	}
@@ -48,10 +48,25 @@ h3{
 
 .menu {
 	width: 90%;
-	max-width: 960px;
+	max-width: 1200px;
 	margin: 0 auto;
 	text-align: center;
 		
+}
+
+.rightside{
+	list-style:none;
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	margin: 0;
+	top: 50%;
+	float: right;
+}
+
+.rightside img:hover{
+	opacity: .8;
+	-webkit-transition: opacity .2s ease-in;
 }
 
 .logo{
