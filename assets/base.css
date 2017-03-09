@@ -89,11 +89,16 @@ p{
 
 .button:hover{
 	border-radius: 15px;
-	background: #ffc90d;
 	width: 100px;
 	padding: 10px;
-	color: gray;
 	-webkit-transition: color .2s ease-in;
+	filter: brightness(75%);
+	-webkit-transition: filter .2s ease-in;
+}
+
+#resume{
+	background: #ffc90d;
+	color: gray;
 }
 
 .landing{
