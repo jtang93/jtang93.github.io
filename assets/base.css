@@ -27,7 +27,17 @@ p{
 .flex-column-center{
 	display: flex;
 	flex-direction: column;
+	flex-wrap: wrap;
 	justify-content: center;
+	align-items: center;
+}
+
+.flex-row-center{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
 }
 
 .container{
@@ -39,6 +49,11 @@ p{
 	margin:auto;
 }
 
+.hireslogo{
+	height: 50vh;
+	width: auto;
+	flex-shrink: 1;
+}
 /*
 .logo-home{
 	padding-top: 190px;
@@ -85,12 +100,14 @@ p{
 	position: relative;
 	background: url('bg op40.png') no-repeat center center fixed;
 	background-size: cover;
-	min-height: 100vh;
+	height: 100vh;
+	min-height: 500px;
 	padding: 10px 10px;
 }
 
 .header{
-	min-height: 50vh;
+	height: 50vh;
+	min-height: 400px;
 	padding: 0;
 	margin: 0;
 }
@@ -127,7 +144,9 @@ p{
 }
 
 .content-wrapper {
-	min-height: 50vh;
+	height: 50vh;
+	min-height: 400px;
+	overflow: auto;
 	background: #ffffff;
 	padding: 0;
 
@@ -135,13 +154,13 @@ p{
 
 .content{
 	position: relative;
+	height: 50vh;
+	min-height: 400px;
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
 	text-align: center;
 	color:black;
-	top: 25vh;
-	transform: translate(0, -50%);
 }
 
 .attribute-box{
