@@ -1,7 +1,7 @@
 (function($) {
 
 $(document).ready(function(){
-
+	
 	$(".fixed-nav-bar").hide();	
 	
 	$(function(){

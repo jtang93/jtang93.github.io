@@ -135,13 +135,20 @@ p{
 	background-position: 50% 35%;
 }
 
-.header-text{
+.text-wrapper{
 	position: relative;
-	top: 25vh;
-	transform: translate(10%, 50%);
+	height: 50vh;
+	min-height: 400px;
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
+}
+
+.header-text{
+	position: relative;
+	top: 25vh;
+	transform: translate(20%, 100%);
+	max-width: 400px;
 	text-align:left;
 	color:white;
 	vertical-align: middle;
