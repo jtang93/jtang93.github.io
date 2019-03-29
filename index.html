@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="icon" href="assets/logo.png" type="image/gif" sizes="16x16">
+	<link rel="icon" href="assets/icons/logo.png" type="image/gif" sizes="16x16">
 	<link rel="stylesheet" href="assets/base.css">
 	<link rel="stylesheet" href="topnav.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -15,38 +15,38 @@
 	<nav class="fixed-nav-bar">
 		<div id="topnav" class="topnav">
 			<a class="logo" href="index.html">
-				<img src="assets/logo.png" 
-					onmouseover="this.src='assets/mouseover logo.jpg'"
-					onmouseout="this.src='assets/logo.png'"
+				<img src="assets/icons/logo.png"
+					onmouseover="this.src='assets/icons/mouseover logo.jpg'"
+					onmouseout="this.src='assets/icons/logo.png'"
 					height="50px"
 					width="auto"
-				/>				
+				/>
 			</a>
 			<ul class="topnav-items flex-row-center">
 				<li> <a href= "#home" class="scroll">Home</a> </li>
 				<li> <a href= "#about" class="scroll">About</a> </li>
 				<li> <a href= "#experience" class="scroll">Experience</a> </li>
 				<li> <a href= "#contact" class="scroll">Contact</a> </li>
-				
+
 			</ul>
 			<ul class="topnav-items rightside">
 				<li> <a href= "assets/Jonathan_Tang_Resume.pdf" id="topnav-resume">R&eacutesum&eacute</a> </li>
-					
+
 					<li> <a href= "https://www.linkedin.com/in/jtang93">
-					<img src="assets/topnav linkedin.png"
+					<img src="assets/icons/topnav linkedin.png"
 					height="50px"
 					width="auto"/>
 					</a> </li>
-					
+
 			</ul>
-			
+
 		</div>
 	</nav>
 
-	<section class="landing" id="home"> 
+	<section class="landing" id="home">
 		<div class="container flex-column-center">
 			<div class="logo-home">
-				<img class="hireslogo" src="assets/hi res logo.png">
+				<img class="hireslogo" src="assets/icons/hi res logo.png">
 			</div>
 			<div class="description">
 				<h1>Home page of Jonathan G. Tang </h1>
@@ -59,13 +59,14 @@
 				-->
 				<a href= "https://jtang93.github.io/" class="button">Home</a>
 				<a href= "#about" class="button scroll">About</a>
+				<a href= "#projects" class="button scroll">Projects</a>
 				<a href= "#experience" class="button scroll">Experience</a>
 				<a href= "#contact" class="button scroll">Contact</a>
 				<a href= "assets/Jonathan_Tang_Resume.pdf" id = "resume" class="button">R&eacutesum&eacute</a>
 			</div>
 		</div>
 	</section>
-	
+
 	<section class="section-wrapper" id="about">
 		<div class="about">
 			<div class="header about-header">
@@ -77,13 +78,30 @@
 			</div>
 			<div class="content-wrapper flex-column-center">
 				<div class="content flex-column-center">
-				<p class="summary">New York based Business Analyst, knowledge-hungry humanist, avid explorer and media consumer.</p>
+				<p class="summary">New York based Full Stack Developer, knowledge-hungry humanist, avid explorer and media consumer.</p>
 				<p class="summary">I believe people are a product of their environment, and the environment a product of its people.</p>
 				</div>
 			</div>
 		</div>
 	</section>
-	
+
+	<section class="section-wrapper" id="projects">
+		<div class="projects">
+			<div class="header projects-header">
+				<div class="text-wrapper">
+				<div class="header-text">
+					<h1>Projects</h1>
+				</div>
+				</div>
+			</div>
+			<div class="content-wrapper flex-column-center">
+				<div class="content flex-column-center">
+				<p class="summary">Under Construction</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<section class="section-wrapper" id="experience">
 		<div class="experience">
 			<div class="header experience-header">
@@ -97,66 +115,71 @@
 				<div class="content flex-row-center">
 					<div id="student" class="attribute-box">
 						<h2> Education </h2>
+						<p> <b>Flatiron School</b>
+						<br>Web Development Immersive
+						<br>Graduated January 2019</p>
+
 						<p><b>Binghamton University -
-						<br>School of Management </b> 
+						<br>School of Management </b>
 						<br>B.S. Business Administration
 						<br>Concentration in Management Information Systems
 						<br>Graduated December 2015 </p>
-						
-						<p> <b> Korea University</b>
+
+						<p> <b>Korea University</b>
 						<br>Business School Exchange Program
 						<br>Fall 2014</p>
-						
+
 						<p> <b>Stuyvesant High School </b>
 						<br>Advanced Regents Diploma
 						<br>Graduated June 2011</p>
 					</div>
-													
+
 					<div id="work" class="attribute-box">
 						<h2>Professional</h2>
 						<p><b>Business Development Financial Analyst</b>
 						<br>Professional Physical Therapy
-						<br>April 2017 - Present</p>
-						
-						<p><b>Business Analyst</b>
-						<br>Mount Sinai Health System
-						<br>July 2016 - September 2016</p>
-															
-						<p><b>Administrative Assistant </b>
-						<br>Strongin Rothman and Abrams, LLP
-						<br>July 2015</p>
-						
-						<p><b>Systems Analyst </b>
+						<br>April 2017 - July 2018</p>
+
+						<p>
+							<b>Business Analyst</b>
+							<br>Mount Sinai Health System
+							<br>July 2016 - September 2016
+						</p>
+
+						<p><b>Systems Analyst</b>
 						<br>Nanticoke Gardens
 						<br>January 2015 - May 2015</p>
 					</div>
 
-					
+
 					<div id="skills" class="attribute-box">
-						<h2> Further Education </h2>
-						<p> <b>IT Consultant Trainee</b>
-						<br>FDM Group
-						<br>March 2016 - April 2016</p>
-						<h2>Coding</h2>
-						<p>SQL, HTML, CSS, JavaScript/JQuery, Python, VBA</p>
-						<h2>Software</h2>
-						<p>Microsoft Office (Excel, Word, PowerPoint, Outlook, Access), Oracle, Tableau, Google Apps, Github, Software Development Lifecycle (SLDC), Agile development, Photoshop</p>
-						
+
+						<h2>Technical Skills</h2>
+
+						<p>
+							<b>Programming Languages</b>
+							<br>JavaScript, React.js, Ruby, Ruby on Rails, SQL, VBA, HTML, CSS, Git
+						</p>
+
+						<p>Software
+							<br>Oracle, Tableau, PostGreSQL, GitHub, Agile development, Software Development Lifecycle (SLDC), Microsoft Office Suite (Excel, Access, PowerPoint, Word, Outlook), Photoshop
+						</p>
+
 					</div>
 					<div id="interests" class="attribute-box">
 						<h2>Languages</h2>
 						<p>English (native)
 						<br>Cantonese (conversational)
-						<br>Spanish (conversational)
+						<br>Spanish (basic)
 						<br>Korean (basic)</p>
 						<h2>Interests</h2>
-						<p>Future-tech, History and Politics, Travel, Cooking, Stand-up Comedy, Cinema, Animation, Drawing, Hip-hop, Dota</p>
+						<p>Travel, Cooking, Stand-up Comedy, Current events, Powerlifting, Cinema, Animation, Drawing, Hip-hop, Dota</p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	
+
 	<section class="section-wrapper" id="contact">
 		<div class="footer">
 			<div class="header contact-header">
@@ -168,21 +191,24 @@
 			</div>
 			<div class="content-wrapper flex-column-center">
 				<div class="content contact-content flex-column-center">
-				<p class="summary">E-mail: <b>TANG.JONATHAN93@GMAIL.COM</b></p>
+					<p class="summary">All images © 2016-2019 Jonathan G. Tang</p>
 					<div class="icons">
 						<a href="https://www.linkedin.com/in/jtang93">
-							<img src="assets/linkedin icon.png"/>
+							<img src="assets/icons/linkedin_icon.png"/>
+						</a>
+						<a href="https://github.com/jtang93">
+							<img src="assets/icons/github_icon.png"/>
 						</a>
 						<a href="mailto:tang.jonathan93@gmail.com">
-							<img src="assets/gmail icon.png"/>
+							<img src="assets/icons/gmail_icon.png"/>
 						</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	
-	
-	
+
+
+
 </body>
 </html>
