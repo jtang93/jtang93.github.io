@@ -108,7 +108,7 @@ p{
 
 .landing{
 	position: relative;
-	background: url('bg op40.png') no-repeat center center fixed;
+	background: url('pictures/bg op40.png') no-repeat center center fixed;
 	background-size: cover;
 	height: 100vh;
 	min-height: 500px;
@@ -123,19 +123,25 @@ p{
 }
 
 .about-header{
-	background: url('berlinwall2.jpg');
+	background: url('pictures/berlinwall2.jpg');
 	background-size:cover;
 	background-position: 50% 90%;
 }
 
+.projects-header{
+	background: url('pictures/burj.jpg');
+	background-size:cover;
+	background-position: 50% 22%;
+}
+
 .experience-header{
-	background: url('views.jpg');
+	background: url('pictures/views.jpg');
 	background-size:cover;
 	background-position: 50% 35%;
 }
 
 .contact-header{
-	background: url('highway.jpg');
+	background: url('pictures/highway.jpg');
 	background-size:cover;
 	background-position: 50% 35%;
 }
@@ -195,8 +201,8 @@ p{
 }
 
 .icons img{
-	width: 50px;
-	height: 50px;
+	width: 80px;
+	height: 80px;
 	margin: 10px;
 }
 
@@ -208,7 +214,7 @@ p{
 a{
 	text-decoration:none;
 }
-/* 
+/*
 .about {
 	min-height: 500px;
 	text-align: center;
@@ -226,5 +232,3 @@ a{
 	padding: 10px 10px;
 }
 */
-
-
